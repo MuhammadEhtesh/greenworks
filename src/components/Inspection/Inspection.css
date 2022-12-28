@@ -1,0 +1,36 @@
+/* .background {
+  background-image: url("../../assets/Images/backgroundImg1.png");
+} */
+
+
+.txt1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    /* or 112% */
+  
+    text-transform: uppercase;
+  
+    color: #AA0101;
+    /* background-image: url("../../assets/Images/image\ 44.png"); */
+}
+
+.txt2 {
+  position: absolute;
+    width: 751px;
+    height: 513px;
+    left: 675px;
+    top: 100px;
+  
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 144%;
+    /* or 35px */
+  
+  
+    color: #404040;
+}
