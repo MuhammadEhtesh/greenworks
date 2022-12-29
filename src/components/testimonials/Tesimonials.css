@@ -1,0 +1,27 @@
+.txtSzng{
+ color: #AA0101;
+ font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 48px;
+ 
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+}
+
+.txtSzng1{
+ font-family: 'Franklin Gothic Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+ 
+  text-transform: uppercase;
+ 
+  color: #16110D;
+}
+
+.bg-color {
+  background: #F3EFDF;;
+}

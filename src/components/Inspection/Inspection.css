@@ -7,7 +7,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 54px;
     /* or 112% */
   
@@ -24,13 +24,16 @@
     left: 675px;
     top: 100px;
   
-    font-family: 'Gotham';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 144%;
     /* or 35px */
   
   
     color: #404040;
+}
+
+.ImgSize1 {
+  height: 650px;
 }

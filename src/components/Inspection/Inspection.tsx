@@ -21,7 +21,7 @@ const Inspection = () => {
           </div>
         </div>
         <div>
-          <img src={Image} />
+          <img className='ImgSize1' src={Image} />
         </div>
       </div>
     </>
