@@ -1,58 +1,58 @@
-import React from 'react'
-import './Tesimonials.css'
-import Topping from '../../assets/Images/toppng 3.jpg'
-import Topping4 from '../../assets/Images/toppng 4.jpg'
-import Ellipse from '../../assets/Images/Ellipse 18.jpg'
+import React from "react";
+import "./Tesimonials.css";
+import Topping from "../../assets/Images/OtherPictures/toppng 3.jpg";
+import Topping4 from "../../assets/Images/OtherPictures/toppng 4.jpg";
+import Ellipse from "../../assets/Images/OtherPictures/Ellipse 18.jpg";
 
 const Testimonials = () => {
   return (
     <>
-      <div className='container-fluid bg-color'>
-        <div className='pricing-header pb-md-4 mx-auto text-center pt-5'>
-          <h1 className='txtSzng'>Clients TESTIMONIALS</h1>
-          <h1 className='txtSzng1'>What our client saying</h1>
+      <div className="container-fluid bg-color">
+        <div className="pricing-header pb-md-4 mx-auto text-center pt-5">
+          <h1 className="txtSzng">Clients TESTIMONIALS</h1>
+          <h1 className="txtSzng1">What our client saying</h1>
         </div>
-        <div className='row row-cols-1 row-cols-md-3 py-5'>
-          <div className='col-3 d-flex justify-content-end'>
+        <div className="row row-cols-1 row-cols-md-3 py-5">
+          <div className="col-3 d-flex justify-content-end">
             <div
-              className='card  rounded-3 shadow-sm'
-              style={{ width: '300px' }}
+              className="card  rounded-3 shadow-sm"
+              style={{ width: "300px" }}
             >
-              <div className='pt-3 d-flex justify-content-between'>
+              <div className="pt-3 d-flex justify-content-between">
                 <p
                   style={{
-                    fontWeight: '600',
-                    fontStyle: 'normal',
-                    fontSize: '16px',
+                    fontWeight: "600",
+                    fontStyle: "normal",
+                    fontSize: "16px",
                   }}
-                  className='px-3'
+                  className="px-3"
                 >
                   Aug 11, 2022
                 </p>
                 <span>
                   <img
                     style={{
-                      marginRight: '35px',
-                      height: '35px',
+                      marginRight: "35px",
+                      height: "35px",
                     }}
                     src={Topping}
                   />
                 </span>
               </div>
-              <div className='p-3 pt-0 mt-0'>
+              <div className="p-3 pt-0 mt-0">
                 <img
-                  className='pt-0 mt-0'
-                  style={{ height: '15px' }}
+                  className="pt-0 mt-0"
+                  style={{ height: "15px" }}
                   src={Topping4}
                 />
               </div>
-              <div className='card-body'>
+              <div className="card-body">
                 <p
                   style={{
-                    fontFamily: 'poppins',
-                    fontStyle: 'normal',
-                    fontWeight: '300',
-                    fontSize: '18px',
+                    fontFamily: "poppins",
+                    fontStyle: "normal",
+                    fontWeight: "300",
+                    fontSize: "18px",
                   }}
                 >
                   Hi , Martin has inspected my home for predrywall. The way he
@@ -62,14 +62,14 @@ const Testimonials = () => {
               </div>
               <div>
                 <img
-                  className='mx-2'
-                  style={{ height: '50px' }}
+                  className="mx-2"
+                  style={{ height: "50px" }}
                   src={Ellipse}
                 />
                 <span
-                  className='mx-2 fw-bolder'
+                  className="mx-2 fw-bolder"
                   style={{
-                    color: ' #408D57',
+                    color: " #408D57",
                   }}
                 >
                   Shane
@@ -77,46 +77,46 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className='col-3 d-flex justify-content-center'>
+          <div className="col-3 d-flex justify-content-center">
             <div
-              className='card  rounded-3 shadow-sm'
-              style={{ width: '300px' }}
+              className="card  rounded-3 shadow-sm"
+              style={{ width: "300px" }}
             >
-              <div className='pt-3 d-flex justify-content-between'>
+              <div className="pt-3 d-flex justify-content-between">
                 <p
                   style={{
-                    fontWeight: '600',
-                    fontStyle: 'normal',
-                    fontSize: '16px',
+                    fontWeight: "600",
+                    fontStyle: "normal",
+                    fontSize: "16px",
                   }}
-                  className='px-3'
+                  className="px-3"
                 >
                   Aug 10, 2022
                 </p>
                 <span>
                   <img
                     style={{
-                      marginRight: '35px',
-                      height: '35px',
+                      marginRight: "35px",
+                      height: "35px",
                     }}
                     src={Topping}
                   />
                 </span>
               </div>
-              <div className='p-3 pt-0 mt-0'>
+              <div className="p-3 pt-0 mt-0">
                 <img
-                  className='pt-0 mt-0'
-                  style={{ height: '15px' }}
+                  className="pt-0 mt-0"
+                  style={{ height: "15px" }}
                   src={Topping4}
                 />
               </div>
-              <div className='card-body'>
+              <div className="card-body">
                 <p
                   style={{
-                    fontFamily: 'poppins',
-                    fontStyle: 'normal',
-                    fontWeight: '300',
-                    fontSize: '18px',
+                    fontFamily: "poppins",
+                    fontStyle: "normal",
+                    fontWeight: "300",
+                    fontSize: "18px",
                   }}
                 >
                   Colton is a rock star ! He has an eye for details, catches
@@ -127,14 +127,14 @@ const Testimonials = () => {
               </div>
               <div>
                 <img
-                  className='mx-2'
-                  style={{ height: '50px' }}
+                  className="mx-2"
+                  style={{ height: "50px" }}
                   src={Ellipse}
                 />
                 <span
-                  className='mx-2 fw-bolder'
+                  className="mx-2 fw-bolder"
                   style={{
-                    color: ' #408D57',
+                    color: " #408D57",
                   }}
                 >
                   Anand M.
@@ -142,46 +142,46 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className='col-3 d-flex justify-content-start'>
+          <div className="col-3 d-flex justify-content-start">
             <div
-              className='card  rounded-3 shadow-sm'
-              style={{ width: '300px' }}
+              className="card  rounded-3 shadow-sm"
+              style={{ width: "300px" }}
             >
-              <div className='pt-3 d-flex justify-content-between'>
+              <div className="pt-3 d-flex justify-content-between">
                 <p
                   style={{
-                    fontWeight: '600',
-                    fontStyle: 'normal',
-                    fontSize: '16px',
+                    fontWeight: "600",
+                    fontStyle: "normal",
+                    fontSize: "16px",
                   }}
-                  className='px-3'
+                  className="px-3"
                 >
                   Aug 9, 2022
                 </p>
                 <span>
                   <img
                     style={{
-                      marginRight: '35px',
-                      height: '35px',
+                      marginRight: "35px",
+                      height: "35px",
                     }}
                     src={Topping}
                   />
                 </span>
               </div>
-              <div className='p-3 pt-0 mt-0'>
+              <div className="p-3 pt-0 mt-0">
                 <img
-                  className='pt-0 mt-0'
-                  style={{ height: '15px' }}
+                  className="pt-0 mt-0"
+                  style={{ height: "15px" }}
                   src={Topping4}
                 />
               </div>
-              <div className='card-body'>
+              <div className="card-body">
                 <p
                   style={{
-                    fontFamily: 'poppins',
-                    fontStyle: 'normal',
-                    fontWeight: '300',
-                    fontSize: '18px',
+                    fontFamily: "poppins",
+                    fontStyle: "normal",
+                    fontWeight: "300",
+                    fontSize: "18px",
                   }}
                 >
                   Randall did a great job. Thorough inspection and kind enough
@@ -191,14 +191,14 @@ const Testimonials = () => {
               </div>
               <div>
                 <img
-                  className='mx-2'
-                  style={{ height: '50px' }}
+                  className="mx-2"
+                  style={{ height: "50px" }}
                   src={Ellipse}
                 />
                 <span
-                  className='mx-2 fw-bolder'
+                  className="mx-2 fw-bolder"
                   style={{
-                    color: ' #408D57',
+                    color: " #408D57",
                   }}
                 >
                   Ashokkumar P
@@ -233,7 +233,7 @@ const Testimonials = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;
