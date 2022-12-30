@@ -10,7 +10,6 @@ import { SlBadge } from "react-icons/sl";
 import Image1 from "../assets/Images/servicesPics/Rectangle 50.png";
 import Image2 from "../assets/Images/servicesPics/Rectangle 51.png";
 import Image3 from "../assets/Images/servicesPics/Rectangle 52.png";
-import Image4 from "../assets/Images/servicesPics/Rectangle 49.png";
 import "./Services.css";
 function Services1() {
   return (
@@ -35,103 +34,123 @@ function Services1() {
               </div>
               <div className="row mt-4">
                 <div className="col-6 ">
-                  <p>
-                    <span>
+                  
+                    <div className="row">
+                      <div className="col-1 " style={{width:"36px"}}> <span>
                       <FaHome
                         className="text-success mx-1"
                         style={{ fontSize: "23px" }}
                       />
-                    </span>{" "}
-                    Home Buyer
-                  </p>
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>Home Buyer</p>
+                      </div>
+                    </div>
+                  
                 </div>
                 <div className="col-6 ">
-                  <p>
-                    <span>
-                      <MdPool
+                <div className="row">
+                      <div className="col-1" style={{width:"36px"}}> <span>
+                      <FaHome
                         className="text-success mx-1"
                         style={{ fontSize: "23px" }}
                       />
-                    </span>{" "}
-                    Pool / Spa
-                  </p>
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>Pool / Spa</p>
+                      </div>
+                    </div>
                 </div>
                 <div className="col-6 ">
-                  <p>
-                    <span>
-                      <BsTools
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
-                    </span>{" "}
-                    New Construction
-                  </p>
-                </div>
-                <div className="col-6 ">
-                  <p>
-                    <span>
-                      <BsFillSunriseFill
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
-                    </span>{" "}
-                    Infrared
-                  </p>
-                </div>
-                <div className="col-6 ">
-                  <p>
-                    <span>
-                      <BiSearchAlt
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
-                    </span>{" "}
-                    Phase Inspection
-                  </p>
-                </div>
-                <div className="col-6 ">
-                  <p>
-                    <span>
-                      <GiTeePipe
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
-                    </span>{" "}
-                    Sewer Line
-                  </p>
-                </div>
-                <div className="col-6 ">
-                  <p>
-                    <span>
-                      <SlBadge
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
-                    </span>{" "}
-                    Home Warranty
-                  </p>
-                </div>
-                <div className="col-6 ">
-                  <p>
-                    <span>
-                      <GiArchiveResearch
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
-                    </span>{" "}
-                    Inspection Packages
-                  </p>
-                </div>
-                <div className="col-6 ">
-                  <p>
-                    <span>
+                <div className="row">
+                      <div className="col-1" style={{width:"36px"}}> <span>
                       <FaMoneyBillAlt
                         className="text-success mx-1"
                         style={{ fontSize: "23px" }}
                       />
-                    </span>{" "}
-                    Investor
-                  </p>
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>New Construction</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="col-6 ">
+                <div className="row">
+                      <div className="col-1" style={{width:"36px"}}> <span>
+                      <BsTools
+                        className="text-success mx-1"
+                        style={{ fontSize: "23px" }}
+                      />
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>Infrared</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="col-6 ">
+                <div className="row">
+                      <div className="col-1" style={{width:"36px"}}> <span>
+                      <BsFillSunriseFill
+                        className="text-success mx-1"
+                        style={{ fontSize: "23px" }}
+                      />
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>Phase Inpection</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="col-6 ">
+                <div className="row">
+                      <div className="col-1" style={{width:"36px"}}> <span>
+                      <MdPool
+                        className="text-success mx-1"
+                        style={{ fontSize: "23px" }}
+                      />
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>Sewer Line</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="col-6 ">
+                <div className="row">
+                      <div className="col-1" style={{width:"36px"}}> <span>
+                      <SlBadge
+                        className="text-success mx-1"
+                        style={{ fontSize: "23px" }}
+                      />
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>Home Warranty</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="col-6 ">
+                <div className="row">
+                      <div className="col-1" style={{width:"36px"}}> <span>
+                      <GiTeePipe
+                        className="text-success mx-1"
+                        style={{ fontSize: "23px" }}
+                      />
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>Inspection Packages</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="col-6 ">
+                <div className="row">
+                      <div className="col-1" style={{width:"36px"}}> <span>
+                      <BiSearchAlt
+                        className="text-success mx-1"
+                        style={{ fontSize: "23px" }}
+                      />
+                    </span>{" "}</div>
+                      <div className="col d-flex justify-content-start">
+                        <p>Investor</p>
+                      </div>
+                    </div>
                 </div>
               </div>
               <div className="row d-flex justify-content-between">
@@ -147,13 +166,8 @@ function Services1() {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
-            <img
-              className="mx-2"
-              style={{ height: "530px" }}
-              src={Image4}
-              alt=""
-            />
+          <div className="imgsection1 col-lg-5 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
+            
           </div>
         </div>
       </div>

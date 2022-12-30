@@ -2,3 +2,31 @@
     height:10vmax;
     margin: 10px;
 }
+.imgsection1{
+    background-image: url(../assets/Images/servicesPics/Rectangle\ 49.png);
+    background-position: center;
+    background-size: cover;
+}
+.imgsection2{
+    background-image: url(../assets/Images/servicesPics/Rectangle\ 53.png);
+    background-position: center;
+    background-size: cover;
+}
+.imageresponsive{
+    height: 530px;
+}
+.imageresponsive2{
+    height: 530px;
+    width: 400px;
+}
+@media screen and (max-width:600px) {
+    .imageresponsive{
+height: 360px ;
+margin-top: 27px;
+    }   
+    .imageresponsive2{
+        height: 360px ;
+        margin-top: 27px;
+            } 
+}
+
