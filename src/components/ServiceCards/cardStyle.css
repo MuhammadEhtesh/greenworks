@@ -1,0 +1,12 @@
+.cardStyle{
+    background-color: #195f22f1;
+    height: max-content;
+    width: 100%;
+}
+.alighnment{
+    height: 40vh;
+}
+.imgStyle{
+    /* bottom: 60px; */
+    top: -50px;
+}

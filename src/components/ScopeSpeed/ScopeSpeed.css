@@ -1,0 +1,19 @@
+.background {
+    background: url("../../assets/Images/HomeWithPeople.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.bg-color{
+    background-color: #498c55c9;
+    /* opacity: 0.8; */
+    color:white;
+    margin-top: 100px;
+}
+input{
+    opacity: 2;
+}
+.navbar{
+    background-image: linear-gradient(white,white,rgba(255, 255, 255, 0.221));
+}

@@ -1,20 +1,24 @@
-import { Typography } from "@material-ui/core";
+// import { Typography } from "@material-ui/core";
 import { Button } from "@mui/material";
-import React from "react";
-import bgImage from "../assets/Images/HomeWithPeople.png";
+import Navbar from "../Navbar/Navbar";
+// import React from "react";
 import "./ScopeSpeed.css";
 const ScopeSpeedService = () => {
   return (
     <div className="background">
       <div>
-        <div className="col-7 d-flex justify-content-end">
-          <div className="col-9 mt-3">
+        <Navbar />
+        <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 mt-2">
             <div className="">
               <h1 className="text-success">Scope. Speed. Service.</h1>
               <p>Magnifying your real Estate Peace of Mind</p>
             </div>
-            <div className="mt-5">
-              <form className="form w-50 mt-5 p-2 bg-color rounded-3">
+            <div className="">
+              <form
+                style={{ width: "270px" }}
+                className="form p-2 bg-color rounded-3"
+              >
                 <p
                   style={{
                     fontSize: "14px",
@@ -62,7 +66,7 @@ const ScopeSpeedService = () => {
           </div>
         </div>
       </div>
-      {/* <div className="col-10 mt-5">
+      {/* <div className="col-10 mt-3">
         <p className="text-center text-success ">Available 7 Days a Week</p>
       </div> */}
     </div>
