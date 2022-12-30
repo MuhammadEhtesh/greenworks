@@ -1,9 +1,13 @@
 .background {
     background: url("../../assets/Images/HomeWithPeople.png");
-    background-size: cover;
-    height: 100vh;
+
+    /* background-size: cover;
+    height: 105vh;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: 100% 100%; */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .bg-color{
     background-color: #498c55c9;
