@@ -1,0 +1,14 @@
+.textStyle{
+ font-family: 'Franklin Gothic Medium';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 48px;
+ letter-spacing: 0.21em;
+ text-transform: uppercase;
+ color: #408D57;
+}
+
+.imgStyle {
+ margin-left: 10rem;
+}

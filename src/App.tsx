@@ -4,6 +4,7 @@ import Inspection from './components/Inspection/Inspection'
 import Review from './components/Reviews/Review'
 import ContactInfo from './components/contactinfo/ContactInfo'
 import Testimonials from './components/testimonials/Testimonials'
+import Certifications from './components/certifications/Certifications'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Review />
       <ContactInfo />
       <Testimonials />
+      <Certifications />
     </div>
   )
 }
