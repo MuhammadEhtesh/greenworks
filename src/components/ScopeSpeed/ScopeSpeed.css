@@ -1,4 +1,4 @@
-.background {
+.bgColorStyle {
     background: url("../../assets/Images/HomeWithPeople.png");
 
     /* background-size: cover;
@@ -10,7 +10,8 @@
     background-repeat: no-repeat;
 }
 .bg-color{
-    background-color: #498c55c9;
+background: rgba(67, 148, 91, 0.88);
+    border-radius: 11px;
     /* opacity: 0.8; */
     color:white;
     margin-top: 100px;
