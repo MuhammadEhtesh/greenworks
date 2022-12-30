@@ -1,0 +1,17 @@
+.footer{
+    background-image: url("../../assets/Images/Footer/Group\ 57.png");
+    height: 460px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:991px) {
+    .footer{
+        height: max-content;
+        background-color: #42925A;  
+        background-image: none;
+    }
+}
