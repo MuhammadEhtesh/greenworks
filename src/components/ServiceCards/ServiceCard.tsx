@@ -56,11 +56,6 @@ const ServiceCard = () => {
         <h3 className="text-center fw-bolder">How We Serve You</h3>
       </div>
       <div>
-        {/* <Cards
-          logoSvgs={homeSvg}
-          cardImgSrcs={cardImage1}
-          CardTexts="INSPECT& INVESTIGATE"
-        /> */}
         <div className="d-flex justify-content-end mb-4">
           <div className="container mt-5 ">
             <Box sx={{ flexGrow: 1 }}>
