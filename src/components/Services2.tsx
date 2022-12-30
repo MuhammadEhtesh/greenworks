@@ -7,10 +7,10 @@ import { BiSearchAlt } from "react-icons/bi";
 import { GiTeePipe, GiArchiveResearch } from "react-icons/gi";
 import { SlBadge } from "react-icons/sl";
 
-import Image1 from "../assets/Images/services/Rectangle 54.png";
-import Image2 from "../assets/Images/services/Rectangle 55.png";
-import Image3 from "../assets/Images/services/Rectangle 56.png";
-import Image4 from "../assets/Images/services/Rectangle 53.png";
+import Image1 from "../assets/Images/servicesPics/Rectangle 54.png";
+import Image2 from "../assets/Images/servicesPics/Rectangle 55.png";
+import Image3 from "../assets/Images/servicesPics/Rectangle 56.png";
+import Image4 from "../assets/Images/servicesPics/Rectangle 53.png";
 import "./Services.css";
 function Services2() {
   return (
