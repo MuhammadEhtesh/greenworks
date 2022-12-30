@@ -17,7 +17,7 @@ function Services2() {
     <div style={{ backgroundColor: "#FAFAFA" }} className="container-fluid">
       <div className="container">
         <div className="row p-5">
-          <div className="col-5 d-flex justify-content-start align-items-center">
+          <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
             <img
               className="mx-2"
               style={{ height: "530px", width: "400px" }}
@@ -25,8 +25,8 @@ function Services2() {
               alt=""
             />
           </div>
-          <div className="col-7 d-flex justify-content-end align-items-center">
-            <div className="col-9">
+          <div className="col-lg-7 col-md-12 col-sm-12 d-flex justify-content-end justify-content-md-end  align-items-center">
+            <div className="col-lg-9 col-md-12 col-sm-12">
               <div className="row">
                 <p style={{ fontSize: "20px" }} className="fw-500 my-0 p-0">
                   Services We Provide
