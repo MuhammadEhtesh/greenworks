@@ -1,0 +1,68 @@
+.bg-all-main{
+ height: 640px;
+ width: 100%;
+}
+.bgmain{
+ height: 640px;
+ width: 100%;
+}
+.bckgroundImg2 {
+ height: 580px;
+ width: 50%;
+ top: 0;
+ background:linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.205)), url('../../assets/Images/OtherPictures/Vector\ 14.png');
+ background-position: 100% 100%;
+ background-size: contain;
+ background-repeat: no-repeat;
+
+}
+.bckgroundImg1 {
+ height: 250px;
+ width: 50%;
+ bottom: 0px;
+ background:linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.205)), url('../../assets/Images/OtherPictures/Vector\ 16.png');
+ background-position: 100% 100%;
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+
+/* .txt1 {
+position: absolute;
+ left: 56.16%;
+ right: 21.47%;
+ top: 20%;
+
+ font-style: normal;
+ font-weight: 450;
+ font-size: 25px;
+ line-height: 48px;
+
+
+ letter-spacing: 0.085em;
+ text-transform: uppercase;
+ color: #82F4A4;
+ text-align: center;
+}
+
+.txt2{
+ position: absolute;
+ top: 30%;
+ left: 47%;
+
+ font-style: normal;
+ font-weight: 850;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.txt3{
+ position: absolute;
+ top: 50%;
+ left: 60%;
+ color: #82F4A4;
+ font-style: normal;
+  font-weight: 550;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 65px;
+} */
