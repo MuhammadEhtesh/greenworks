@@ -1,6 +1,5 @@
 import React from "react";
 import "./Inspection.css";
-import Image from "../../assets/Images/OtherPictures/pic1.png";
 
 const Inspection = () => {
   return (
@@ -20,9 +19,7 @@ const Inspection = () => {
             needs.
           </div>
         </div>
-        <div>
-          <img className="ImgSize1" src={Image} />
-        </div>
+        <div>{/* <img className="ImgSize1" src={Image1} /> */}</div>
       </div>
     </>
   );

@@ -4,7 +4,6 @@ import AdvatismentWidget from "./components/Advatisment/AdvatismentWidget";
 import Certifications from "./components/certifications/Certifications";
 import ContactInfo from "./components/contactinfo/ContactInfo";
 import GreenFooter from "./components/Footer/GreenFooter";
-import Inspection from "./components/Inspection/Inspection";
 import Local from "./components/LocalPic/Local";
 import QueetForm from "./components/QueetForm/QueetForm";
 import Review from "./components/Reviews/Review";

@@ -10,3 +10,7 @@
     /* bottom: 60px; */
     top: -50px;
 }
+.transitionEffect:hover{
+    transform: scale(110%);
+    transition: 0.10s;
+}

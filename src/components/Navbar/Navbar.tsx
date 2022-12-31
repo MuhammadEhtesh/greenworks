@@ -16,12 +16,16 @@ export default function Navbar() {
           </a>
           <form className="d-flex">
             <div className="d-flex mx-3">
-              <IconButton>
+              <IconButton className="transitionEffect">
                 <PhoneIphoneIcon />
               </IconButton>
-              <Typography className="mt-2"> (210) 750-4833</Typography>
+              <Typography className="mt-2"> (210) 750-7584</Typography>
             </div>
-            <Button color="success" variant="contained">
+            <Button
+              color="success"
+              variant="contained"
+              className="transitionEffect"
+            >
               Book Online
             </Button>
           </form>
