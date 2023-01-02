@@ -9,10 +9,10 @@ const Review = () => {
   return (
     <>
       <div className="px-4 mt-5 text-center">
-        <h1 className="fw-bold txt3">With thousands of 5-star reviews</h1>
+        <h1 className="txt3">With thousands of 5-star reviews</h1>
         <div className="col-lg-6 mx-auto">
-          <p className="fw-bold mb-0 txt4">
-            you can trust what you're buying. You want to choose the best
+          <p className="mb-0 txt4">
+            You can trust what you're buying. You want to choose the best
             inspectors in the industry for your clients
           </p>
         </div>

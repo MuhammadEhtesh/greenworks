@@ -15,9 +15,9 @@ function Services2() {
     <div style={{ backgroundColor: "#FAFAFA" }} className="container-fluid">
       <div className="container">
         <div className="row p-5">
-        <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+        <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center align-items-end">
         {/* <img className="mx-lg-3 mx-md-0" height={500} src={image} alt="" /> */}
-        <div className="sideimage1" style={{height:"500px",width:"340px"}}></div>
+        <div className="sideimage1" style={{height:"410px",width:"340px"}}></div>
             </div>
           <div className="col-lg-7 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
             <div className="col-lg-9 col-md-12 col-sm-12">
@@ -32,7 +32,7 @@ function Services2() {
                   style={{ fontSize: "26px", color: "#AA0101" }}
                   className="my-0 p-0"
                 >
-                  types of residential home inspections
+                  Types of residential home inspections
                 </h4>
               </div>
               <div className="row mt-4">

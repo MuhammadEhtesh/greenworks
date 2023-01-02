@@ -14,18 +14,21 @@ const Flagsection = () => {
         <div
           className='d-flex justify-content-end text-white py-5'
         >
-          <div className=' col-lg-5 col-md-8 col-sm-10 mt-5 '>
+          <div className=' col-lg-5 col-md-8 col-sm-10 mt-5 text-center'>
+            <h5 style={{color:"#82F4A4"}}>
+             TEXT . CHAT . CLICK . CALL
+            </h5>
             <h1>
-              Get Peace of Mind <br /> with Greenworks
+              AVAILABLE 7 DAYS A  <br /> WEEK
             </h1>
-            <h4 className='text-success'>
-              Residential & Commercial Inspection
-            </h4>
-            <div className='d-flex '>
-              <IconButton className='text-success'>
+            <div className='d-flex justify-content-center text-center '>
+              <div className='d-flex'>
+              <IconButton style={{color:"#82F4A4"}} >
                 <AddIcCallIcon fontSize='large' />
               </IconButton>
               <h3 className='mt-2 fw-bolder'> (210) 750-4833</h3>
+              </div>
+              
             </div>
           </div>
         </div>

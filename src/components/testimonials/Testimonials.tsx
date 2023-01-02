@@ -17,11 +17,12 @@ const Testimonials = () => {
           <div className="row container">
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
               <div className="card  rounded-3 border-0">
-                <div className="pt-3 d-flex justify-content-between position-relative">
+                <div className="row pt-3 d-flex justify-content-center position-relative">
                   <div className="position-absolute bg-white rounded-5 text-center formQuotePosition">
                     <FaQuoteLeft className="mt-3" />
                   </div>
-                  <p
+                <div className="col-7">
+                <p
                     style={{
                       fontWeight: "600",
                       fontStyle: "normal",
@@ -31,11 +32,17 @@ const Testimonials = () => {
                   >
                     Aug 11, 2022
                   </p>
+                  <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                </div>
+                </div>
+                  
                   <div
-                    style={{
-                      marginRight: "35px",
-                      height: "35px",
-                    }}
+                    className="col d-flex justify-content-center align-items-center flex-column"
                   >
                     <h4>
                       <span style={{ color: "#518af2" }}>G</span>
@@ -57,13 +64,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-                <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                </div>
+                
                 <div className="card-body">
                   <p
                     style={{
@@ -96,12 +97,13 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
-              <div className="card  rounded-3 border-0">
-                <div className="pt-3 d-flex justify-content-between position-relative text-center">
+            <div className="card  rounded-3 border-0">
+                <div className="row pt-3 d-flex justify-content-center position-relative">
                   <div className="position-absolute bg-white rounded-5 text-center formQuotePosition">
                     <FaQuoteLeft className="mt-3" />
                   </div>
-                  <p
+                <div className="col-7">
+                <p
                     style={{
                       fontWeight: "600",
                       fontStyle: "normal",
@@ -109,22 +111,19 @@ const Testimonials = () => {
                     }}
                     className="px-3"
                   >
-                    Aug 10, 2022
+                    Aug 11, 2022
                   </p>
-                  {/* <span>
-                  <img
-                    style={{
-                      marginRight: "35px",
-                      height: "35px",
-                    }}
-                    src={Topping}
-                  />
-                </span> */}
+                  <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                </div>
+                </div>
+                  
                   <div
-                    style={{
-                      marginRight: "35px",
-                      height: "35px",
-                    }}
+                    className="col d-flex justify-content-center align-items-center flex-column"
                   >
                     <h4>
                       <span style={{ color: "#518af2" }}>G</span>
@@ -146,14 +145,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-                <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                </div>
-                {/* <StarIcon style={{color: "orange"}} /> */}
+                
                 <div className="card-body">
                   <p
                     style={{
@@ -163,10 +155,9 @@ const Testimonials = () => {
                       fontSize: "18px",
                     }}
                   >
-                    Colton is a rock star ! He has an eye for details, catches
-                    issues with the house which most might miss. A great
-                    friendly person and takes time out to explain the issues in
-                    details. Outstanding !
+                    Hi , Martin has inspected my home for predrywall. The way he
+                    sees the things are good. Overall he identified good things
+                    as part of my home inspection. I would recommend his service
                   </p>
                 </div>
                 <div>
@@ -181,18 +172,19 @@ const Testimonials = () => {
                       color: " #408D57",
                     }}
                   >
-                    Anand M.
+                    Shane
                   </span>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
-              <div className="card  rounded-3 border-0">
-                <div className="pt-3 d-flex justify-content-between position-relative text-center">
+            <div className="card  rounded-3 border-0">
+                <div className="row pt-3 d-flex justify-content-center position-relative">
                   <div className="position-absolute bg-white rounded-5 text-center formQuotePosition">
                     <FaQuoteLeft className="mt-3" />
                   </div>
-                  <p
+                <div className="col-7">
+                <p
                     style={{
                       fontWeight: "600",
                       fontStyle: "normal",
@@ -200,13 +192,19 @@ const Testimonials = () => {
                     }}
                     className="px-3"
                   >
-                    Aug 9, 2022
+                    Aug 11, 2022
                   </p>
+                  <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                </div>
+                </div>
+                  
                   <div
-                    style={{
-                      marginRight: "35px",
-                      height: "35px",
-                    }}
+                    className="col d-flex justify-content-center align-items-center flex-column"
                   >
                     <h4>
                       <span style={{ color: "#518af2" }}>G</span>
@@ -228,13 +226,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-                <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                </div>
+                
                 <div className="card-body">
                   <p
                     style={{
@@ -244,15 +236,15 @@ const Testimonials = () => {
                       fontSize: "18px",
                     }}
                   >
-                    Randall did a great job. Thorough inspection and kind enough
-                    to explain all findings. I would definitely recommend him to
-                    friends and family. Thanks !!
+                    Hi , Martin has inspected my home for predrywall. The way he
+                    sees the things are good. Overall he identified good things
+                    as part of my home inspection. I would recommend his service
                   </p>
                 </div>
                 <div>
                   <img
-                    style={{ height: "50px" }}
                     className="mx-2"
+                    style={{ height: "50px" }}
                     src={Ellipse}
                   />
                   <span
@@ -261,7 +253,7 @@ const Testimonials = () => {
                       color: " #408D57",
                     }}
                   >
-                    Ashokkumar P
+                    Shane
                   </span>
                 </div>
               </div>

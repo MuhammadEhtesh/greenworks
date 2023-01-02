@@ -3,7 +3,7 @@ import "./App.css";
 import AdvatismentWidget from "./components/Advatisment/AdvatismentWidget";
 import Certifications from "./components/certifications/Certifications";
 // import ContactInfo from "./components/contactinfo/ContactInfo";
-import Flagsection from "./components/flagsection/Flagsection";
+import Flagsection from "./components/Advatisment copy/Flagsection";
 import GreenFooter from "./components/Footer/GreenFooter";
 import Local from "./components/LocalPic/Local";
 import QueetForm from "./components/QueetForm/QueetForm";

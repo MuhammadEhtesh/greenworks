@@ -8,6 +8,7 @@ import sewerline from "../assets/serviceicons1/sewerline.svg"
 import homewarranty from "../assets/serviceicons1/homewarranty.svg"
 import inspectionpackages from "../assets/serviceicons1/inspectionpackages.svg"
 import investor from "../assets/serviceicons1/investor.svg"
+import newimg from "../assets/Images/Mask group (4).png"
 import Image1 from "../assets/Images/servicesPics/Rectangle 50.png";
 import Image2 from "../assets/Images/servicesPics/Rectangle 51.png";
 import Image3 from "../assets/Images/servicesPics/Rectangle 52.png";
@@ -30,7 +31,7 @@ function Services1() {
                   style={{ fontSize: "26px", color: "#AA0101" }}
                   className="my-0 p-0"
                 >
-                  types of residential home inspections
+                  Types of residential home inspections
                 </h4>
               </div>
               <div className="row mt-4">
@@ -65,7 +66,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p className="iconname">New Construction</p>
+                        <p className="iconname">Construction</p>
                       </div>
                     </div>
                 </div>
@@ -87,7 +88,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p className="iconname">Phase Inpection</p>
+                        <p className="iconname">Phase</p>
                       </div>
                     </div>
                 </div>
@@ -120,7 +121,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p className="iconname">Inspection Packages</p>
+                        <p className="iconname">Packages</p>
                       </div>
                     </div>
                 </div>
@@ -149,8 +150,10 @@ function Services1() {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center">
-          <div className="sideimage2 mt-5" style={{height:"500px",width:"340px"}}></div>
+          <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center align-items-start">
+          <div className="sideimage2 d-flex justify-content-center mt-5 mt-lg-0 mt-md-5 mt-sm-5" style={{height:"470px",width:"340px"}}>
+            <img className="mt-2" height={170} src={newimg} alt="" />
+          </div>
           </div>
         </div>
       </div>

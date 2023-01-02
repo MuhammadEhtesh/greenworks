@@ -6,6 +6,7 @@ import {
     MDBCol,
     MDBRow
   } from 'mdb-react-ui-kit';
+  import { BsInstagram } from "react-icons/bs";
   
   import { FaFacebookF,FaTwitter,FaGooglePlusG } from "react-icons/fa";
 import logo from "../../assets/Images/Footer/logo-white.png"
@@ -19,7 +20,7 @@ function GreenFooter() {
 
             <ul className='list-unstyled d-flex flex-column align-items-start'>
            <img height={70} src={logo} alt="" />
-              <li>
+              <li className='mt-2'>
                 <p className='text-start p-0 m-0 mt-3' style={{color:"#82F4A4"}}>
                   For Inspection
                 </p>
@@ -32,81 +33,81 @@ function GreenFooter() {
 
           <MDBCol lg='3' md='6' sm="6" className='mb-4 mb-md-0'>
 
-            <ul className='list-unstyled'>
-              <li>
-                <p className='text-white text-start' style={{fontSize:"12px"}}>
+            <ul className='list-unstyled text-start'>
+              <li className='mt-2'>
+                <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     INSPECT & INVESTIGATE
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     ENGINEER & DESIGN
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     ENVIROMENTAL CONSULTING
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     PEST AND TERMINATE SOLUTIONS
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     HANDYMAN & HOME SOLUTIONS
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     CONSULTING AND CONNECTIONS
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     PACKAGES
-                </p>
+                </a>
               </li>
             </ul>
           </MDBCol>
 
           <MDBCol lg='3' md='6' sm="6" className='mb-4 mb-md-0'>
-          <ul className='list-unstyled'>
-              <li>
-                <p className='text-white text-start' style={{fontSize:"12px"}}>
+          <ul className='list-unstyled text-start'>
+              <li className='mt-2'>
+                <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     INSPECT & INVESTIGATE
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     ENGINEER & DESIGN
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     ENVIROMENTAL CONSULTING
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     PEST AND TERMINATE SOLUTIONS
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     HANDYMAN & HOME SOLUTIONS
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     CONSULTING AND CONNECTIONS
-                </p>
+                </a>
               </li>
-              <li>
-              <p className='text-white text-start' style={{fontSize:"12px"}}>
+              <li className='mt-2'>
+              <a className='text-white text-start' style={{fontSize:"12px", textDecoration:'none',}}>
                     PACKAGES
-                </p>
+                </a>
               </li>
             </ul>
           </MDBCol>
@@ -131,9 +132,10 @@ function GreenFooter() {
               </li>
               <li>
               <ul className='list-unstyled d-flex fs-4'>
-                        <li className='mx-1'><FaFacebookF/></li>
-                        <li className='mx-1'><FaTwitter/></li>
-                        <li className='mx-1'><FaGooglePlusG/></li>
+                        <li style={{height:"30px",width:"30px"}} className='mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6'><FaFacebookF/></li>
+                        <li style={{height:"30px",width:"30px"}} className='mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6'><FaTwitter/></li>
+                        <li style={{height:"30px",width:"30px"}} className='mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 fw-bold'><BsInstagram/></li>
+                        <li style={{height:"30px",width:"30px"}} className='mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 fw-bold'><FaGooglePlusG/></li>
                     </ul>
               </li>
             </ul>
