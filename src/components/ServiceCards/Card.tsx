@@ -17,14 +17,20 @@ const Cards = (props: {
         sx={{ maxWidth: "30vh", minWidth: "30vh" }}
         className="mb-2 transitionEffect"
       >
-        <CardMedia image={cardImgSrcs} className=" d-flex alighnment">
+        <CardMedia image={cardImgSrcs} className="d-flex alighnment">
           <CardActions className="align-self-end position-relative justify-content-center cardStyle">
-            <div className="position-absolute p-2 bg-white rounded-5 imgStyle">
-              <img src={logoSvgs} alt="" />
+            <div className="position-absolute p-2 bg-white rounded-5 imgStyle with-border">
+              <img style={{ width: "40px"}} src={logoSvgs} alt="" />
             </div>
-            <Typography className="py-1 text-white text-center">
+            {/* <Typography  className="py-1 text-white text-center">
               {CardTexts}
-            </Typography>
+            </Typography> */}
+            <h4
+              style={{ fontWeight: "600", fontSize: "15px" }}
+              className="py-1 text-white text-center"
+            >
+              {CardTexts}
+            </h4>
           </CardActions>
         </CardMedia>
       </Card>
