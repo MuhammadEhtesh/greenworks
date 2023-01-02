@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import AdvatismentWidget from "./components/Advatisment/AdvatismentWidget";
 import Certifications from "./components/certifications/Certifications";
-import ContactInfo from "./components/contactinfo/ContactInfo";
+// import ContactInfo from "./components/contactinfo/ContactInfo";
+import Flagsection from "./components/flagsection/Flagsection";
 import GreenFooter from "./components/Footer/GreenFooter";
 import Local from "./components/LocalPic/Local";
 import QueetForm from "./components/QueetForm/QueetForm";
@@ -24,7 +25,7 @@ function App() {
       <Local />
       {/* <Inspection /> */}
       <Review />
-      <ContactInfo />
+      <Flagsection />
       <Testimonials />
       <QueetForm />
       <Certifications />

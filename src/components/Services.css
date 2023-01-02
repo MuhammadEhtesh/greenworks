@@ -1,8 +1,46 @@
 .images{
-    height:10vmax;
-    margin: 10px;
+    height:130px;
 }
-.imgsection1{
+.sideimage1{
+    background-image: url("../assets/Images/servicesPics/Rectangle\ 53.png");
+    background-position: center;
+    background-size: cover;
+  
+}
+.sideimage2{
+    background-image: url("../assets/Images/servicesPics/Rectangle\ 49.png");
+    background-position: center;
+    background-size: cover;
+   
+}
+@media screen and (max-width:1199px){
+    .images{
+        height:105px;
+    }
+}
+@media screen and (max-width:991px){
+    .sideimage2{
+        height:"500px";
+        width:"100%";
+    }
+}
+@media screen and (max-width:491px){
+    .images{
+        height:90px;
+    }
+}
+@media screen and (max-width:435px){
+    .images{
+        height:70px;
+    }
+}
+@media screen and (max-width:375px){
+    .images{
+        height:60px;
+    }
+}
+
+/* .imgsection1{
     background-image: url(../assets/Images/servicesPics/Rectangle\ 49.png);
     background-position: center;
     background-size: cover;
@@ -11,7 +49,7 @@
     background-image: url(../assets/Images/servicesPics/Rectangle\ 53.png);
     background-position: center;
     background-size: cover;
-}
+} */
 .imageresponsive{
     height: 530px;
 }

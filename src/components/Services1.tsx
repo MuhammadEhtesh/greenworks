@@ -1,12 +1,13 @@
 import React from "react";
-import { FaHome, FaMoneyBillAlt } from "react-icons/fa";
-import { BsTools } from "react-icons/bs";
-import { BsFillSunriseFill } from "react-icons/bs";
-import { MdPool } from "react-icons/md";
-import { BiSearchAlt } from "react-icons/bi";
-import { GiTeePipe, GiArchiveResearch } from "react-icons/gi";
-import { SlBadge } from "react-icons/sl";
-
+import homesvg from "../assets/serviceicons1/home.svg"
+import pool from "../assets/serviceicons1/pool.svg"
+import construction from "../assets/serviceicons1/construction.svg"
+import infrared from "../assets/serviceicons1/infrared.svg"
+import phaseinspection from "../assets/serviceicons1/phaseinspection.svg"
+import sewerline from "../assets/serviceicons1/sewerline.svg"
+import homewarranty from "../assets/serviceicons1/homewarranty.svg"
+import inspectionpackages from "../assets/serviceicons1/inspectionpackages.svg"
+import investor from "../assets/serviceicons1/investor.svg"
 import Image1 from "../assets/Images/servicesPics/Rectangle 50.png";
 import Image2 from "../assets/Images/servicesPics/Rectangle 51.png";
 import Image3 from "../assets/Images/servicesPics/Rectangle 52.png";
@@ -37,10 +38,7 @@ function Services1() {
                   
                     <div className="row">
                       <div className="col-1 " style={{width:"36px"}}> <span>
-                      <FaHome
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={homesvg} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
                         <p>Home Buyer</p>
@@ -51,10 +49,9 @@ function Services1() {
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <FaHome
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                
+                      <img style={{ width: "23px"}} src={pool} alt="" />
+
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
                         <p>Pool / Spa</p>
@@ -64,10 +61,8 @@ function Services1() {
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <FaMoneyBillAlt
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={construction} alt="" />
+
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
                         <p>New Construction</p>
@@ -77,23 +72,19 @@ function Services1() {
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <BsTools
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={infrared} alt="" />
+
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Infrared</p>
+                        <p>Infrared <br /><span className="m-0 p-0" style={{color:"#408D57",fontSize:"12px"}} >(Thermal Imaging)</span></p>
                       </div>
                     </div>
                 </div>
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <BsFillSunriseFill
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={phaseinspection} alt="" />
+
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
                         <p>Phase Inpection</p>
@@ -103,10 +94,8 @@ function Services1() {
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <MdPool
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={sewerline} alt="" />
+
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
                         <p>Sewer Line</p>
@@ -116,10 +105,8 @@ function Services1() {
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <SlBadge
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={homewarranty} alt="" />
+
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
                         <p>Home Warranty</p>
@@ -129,10 +116,8 @@ function Services1() {
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <GiTeePipe
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={inspectionpackages} alt="" />
+
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
                         <p>Inspection Packages</p>
@@ -142,10 +127,8 @@ function Services1() {
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <BiSearchAlt
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={investor} alt="" />
+
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
                         <p>Investor</p>
@@ -166,8 +149,8 @@ function Services1() {
               </div>
             </div>
           </div>
-          <div className="imgsection1 col-lg-5 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
-            
+          <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center">
+          <div className="sideimage2 mt-5" style={{height:"500px",width:"340px"}}></div>
           </div>
         </div>
       </div>

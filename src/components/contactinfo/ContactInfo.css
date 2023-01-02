@@ -1,12 +1,15 @@
 .bg-all-main{
+ height: 440px;
+ width: 100%;
+background:linear-gradient(rgba(0, 0, 0, 0.151),rgba(0, 0, 0, 0.151)), url("../../assets/Images/Group 56.png");
+background-position: center;
+background-size: cover;
+}
+/* .bgmain{
  height: 640px;
  width: 100%;
-}
-.bgmain{
- height: 640px;
- width: 100%;
-}
-.bckgroundImg2 {
+} */
+/* .bckgroundImg2 {
  height: 580px;
  width: 50%;
  top: 0;
@@ -65,4 +68,4 @@ position: absolute;
   font-size: 25px;
   text-transform: uppercase;
   line-height: 65px;
-} */
+} */ 
