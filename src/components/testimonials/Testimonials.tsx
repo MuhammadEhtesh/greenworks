@@ -6,6 +6,7 @@ import Ellipse from "../../assets/Images/OtherPictures/Ellipse 18.jpg";
 import StarIcon from "@mui/icons-material/Star";
 
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
+import GoogleIcon from "@mui/icons-material/Google";
 
 const Testimonials = () => {
   return (
@@ -85,7 +86,20 @@ const Testimonials = () => {
               className="card  rounded-3 shadow-sm"
               style={{ width: "300px" }}
             >
-                {/* <FormatQuoteIcon /> */}
+              {/* <FormatQuoteIcon /> */}
+              {/* <GoogleIcon /> */}
+              <div className="row">
+                <h4>
+                  <span style={{ color: "blue" }}>G</span>
+                  <span style={{ color: "red" }}>o</span>
+                  <span style={{ color: "orange" }}>o</span>
+                  <span style={{ color: "blue" }}>g</span>
+                  <span style={{ color: "green" }}>l</span>
+                  <span style={{ color: "red" }}>e</span>
+                </h4>
+                <div className="d-flex"><p className="text-muted fw-bolder">Reviews</p><StarIcon style={{color: "orange", height: "10px", marginTop: "8px"}} /><StarIcon style={{color: "orange", height: "10px", marginTop: "8px" }} /><StarIcon style={{color: "orange", height: "10px", marginTop: "8px" }} /><StarIcon style={{color: "orange", height: "10px", marginTop: "8px" }} /><StarIcon style={{color: "orange", height: "10px", marginTop: "8px" }} /></div>
+                
+              </div>
               <div className="pt-3 d-flex justify-content-between">
                 <p
                   style={{
