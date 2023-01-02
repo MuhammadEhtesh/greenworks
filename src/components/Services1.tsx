@@ -41,7 +41,7 @@ function Services1() {
                       <img style={{ width: "23px"}} src={homesvg} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Home Buyer</p>
+                        <p className="iconname">Home Buyer</p>
                       </div>
                     </div>
                   
@@ -54,18 +54,18 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Pool / Spa</p>
+                        <p className="iconname">Pool / Spa</p>
                       </div>
                     </div>
                 </div>
                 <div className="col-6 ">
                 <div className="row">
-                      <div className="col-1" style={{width:"36px"}}> <span>
+                      <div className="col-1 d-flex " style={{width:"36px"}}> <span>
                       <img style={{ width: "23px"}} src={construction} alt="" />
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>New Construction</p>
+                        <p className="iconname">New Construction</p>
                       </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Infrared <br /><span className="m-0 p-0" style={{color:"#408D57",fontSize:"12px"}} >(Thermal Imaging)</span></p>
+                        <p className="position-relative iconname">Infrared <br /><span className="position-absolute" style={{color:"#408D57",fontSize:"12px",whiteSpace:"nowrap",marginTop:"-4px"}} >(Thermal Imaging)</span></p>
                       </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Phase Inpection</p>
+                        <p className="iconname">Phase Inpection</p>
                       </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Sewer Line</p>
+                        <p className="iconname">Sewer Line</p>
                       </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Home Warranty</p>
+                        <p className="iconname">Home Warranty</p>
                       </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Inspection Packages</p>
+                        <p className="iconname">Inspection Packages</p>
                       </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ function Services1() {
 
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Investor</p>
+                        <p className="iconname">Investor</p>
                       </div>
                     </div>
                 </div>

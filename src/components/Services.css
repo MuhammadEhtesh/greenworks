@@ -7,6 +7,8 @@
     background-size: cover;
   
 }
+
+
 .sideimage2{
     background-image: url("../assets/Images/servicesPics/Rectangle\ 49.png");
     background-position: center;
@@ -27,6 +29,9 @@
 @media screen and (max-width:491px){
     .images{
         height:90px;
+    }
+    .iconname{
+        font-size: 12px;
     }
 }
 @media screen and (max-width:435px){

@@ -52,7 +52,8 @@ const AdvatismentWidget = () => {
         <div
           style={{
             backgroundImage: `url(${bgImage2})`,
-            backgroundPosition: 'center center',
+            backgroundPositionY: '90% center',
+            backgroundPositionX:"center",
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}

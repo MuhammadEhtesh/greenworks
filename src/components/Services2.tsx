@@ -84,7 +84,7 @@ function Services2() {
                       <img style={{ width: "23px",color:"black"}} src={phaseinspection} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p style={{fontSize:"14px"}} className="fw-bold">Sutructural Engineering</p>
+                        <p style={{fontSize:"14px"}}>Sutructural Engineering</p>
                       </div>
                     </div>
                 </div>
