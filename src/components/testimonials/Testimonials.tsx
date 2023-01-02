@@ -3,6 +3,7 @@ import "./Tesimonials.css";
 import Topping from "../../assets/Images/OtherPictures/toppng 3.jpg";
 import Topping4 from "../../assets/Images/OtherPictures/toppng 4.jpg";
 import Ellipse from "../../assets/Images/OtherPictures/Ellipse 18.jpg";
+import StarIcon from '@mui/icons-material/Star';
 
 const Testimonials = () => {
   return (
@@ -110,6 +111,7 @@ const Testimonials = () => {
                   src={Topping4}
                 />
               </div>
+              {/* <StarIcon style={{color: "orange"}} /> */}
               <div className="card-body">
                 <p
                   style={{
