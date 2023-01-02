@@ -3,7 +3,9 @@ import "./Tesimonials.css";
 import Topping from "../../assets/Images/OtherPictures/toppng 3.jpg";
 import Topping4 from "../../assets/Images/OtherPictures/toppng 4.jpg";
 import Ellipse from "../../assets/Images/OtherPictures/Ellipse 18.jpg";
-import StarIcon from '@mui/icons-material/Star';
+import StarIcon from "@mui/icons-material/Star";
+
+import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 
 const Testimonials = () => {
   return (
@@ -83,6 +85,7 @@ const Testimonials = () => {
               className="card  rounded-3 shadow-sm"
               style={{ width: "300px" }}
             >
+                {/* <FormatQuoteIcon /> */}
               <div className="pt-3 d-flex justify-content-between">
                 <p
                   style={{
