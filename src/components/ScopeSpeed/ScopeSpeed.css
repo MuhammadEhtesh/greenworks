@@ -5,6 +5,10 @@
     background-repeat: no-repeat;
     background-position: 100% 100% ;
 }
+.formstyle{
+    width: 511px;
+}
+
 @media screen and (max-width:2500px) {
     .bgColorStyle{
     height: 90vh;
@@ -14,6 +18,11 @@
     .bgColorStyle{
     height: 110vh;
     }
+}
+@media screen and (max-width:1400px) {
+    .formstyle {
+            width: 311px;
+        }
 }
 .bg-color{
 background: rgba(67, 148, 91, 0.88);
@@ -33,11 +42,11 @@ transform: scale(95%);
 }
 @media screen and (max-width:1100px) {
     .bg-color{
-        margin-top: 70px;
+        margin-top: 50px;
     }
 }
 @media screen and (max-width:767px) {
     .bg-color{
-        margin-top: 50px;
+        margin-top: 20px;
     }
 }

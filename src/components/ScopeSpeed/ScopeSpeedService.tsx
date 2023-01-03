@@ -16,8 +16,8 @@ const ScopeSpeedService = () => {
             </div>
             <div className="">
               <form
-                style={{ width: "270px" }}
-                className="form p-2 bg-color rounded-3"
+                // style={{ width: "451px" }}
+                className="form p-4 bg-color formstyle rounded-3"
               >
                 <p
                   style={{
