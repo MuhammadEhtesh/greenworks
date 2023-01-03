@@ -8,7 +8,7 @@ const Local = () => {
         backgroundPosition: "center center",
         backgroundSize: "cover",
         width: "100%",
-        height: "170px",
+        height: "300px",
         backgroundRepeat: "no-repeat",
       }}
     ></div>
