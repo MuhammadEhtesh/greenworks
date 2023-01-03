@@ -1,13 +1,19 @@
 .bgColorStyle {
     background: url("../../assets/Images/HomeWithPeople.png");
-
     background-size: cover;
     height: 110vh;
     background-repeat: no-repeat;
     background-position: 100% 100% ;
-    /* background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+}
+@media screen and (max-width:2500px) {
+    .bgColorStyle{
+    height: 90vh;
+    }
+}
+@media screen and (max-width:1400px) {
+    .bgColorStyle{
+    height: 110vh;
+    }
 }
 .bg-color{
 background: rgba(67, 148, 91, 0.88);
