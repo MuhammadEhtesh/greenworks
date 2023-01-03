@@ -218,30 +218,34 @@ function GreenFooter() {
                 </li>
                 <li>
                   <ul className="list-unstyled d-flex fs-4">
-                    <li
+                    <a
+                      href="#"
                       style={{ height: "30px", width: "30px" }}
                       className="mx-1 rounded-circle d-flex justify-content-center align-items-center fs-6 IconBackground "
                     >
                       <FaFacebookF className="IconHover" />
-                    </li>
-                    <li
+                    </a>
+                    <a
+                      href="#"
                       style={{ height: "30px", width: "30px" }}
                       className="mx-1 rounded-circle d-flex justify-content-center align-items-center fs-6 IconBackground "
                     >
                       <FaTwitter className="IconHover" />
-                    </li>
-                    <li
+                    </a>
+                    <a
+                      href="#"
                       style={{ height: "30px", width: "30px" }}
                       className="mx-1 rounded-circle d-flex justify-content-center align-items-center fs-6 IconBackground  fw-bold"
                     >
                       <BsInstagram className="IconHover" />
-                    </li>
-                    <li
+                    </a>
+                    <a
+                      href="#"
                       style={{ height: "30px", width: "30px" }}
                       className="mx-1 rounded-circle d-flex justify-content-center align-items-center fs-6 IconBackground  fw-bold"
                     >
                       <FaLinkedinIn className="IconHover" />
-                    </li>
+                    </a>
                   </ul>
                 </li>
               </ul>
