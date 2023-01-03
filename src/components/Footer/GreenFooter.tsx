@@ -104,7 +104,7 @@ function GreenFooter() {
 
             <MDBCol lg="3" md="6" sm="6" className="mb-4 mb-md-0 ">
               <ul className="list-unstyled text-start">
-                <li className="mt-2">
+                {/* <li className="mt-2">
                   <a
                     href="#"
                     className="text-white text-start"
@@ -112,7 +112,7 @@ function GreenFooter() {
                   >
                     INSPECT & INVESTIGATE
                   </a>
-                </li>
+                </li> */}
                 <li className="mt-2">
                   <a
                     href="#"
