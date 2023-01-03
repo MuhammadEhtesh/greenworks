@@ -38,7 +38,7 @@ input{
     background-image: linear-gradient(white,white,rgba(255, 255, 255, 0.221));
 }
 .ActiveEffect:active{
-transform: scale(95%);
+transform: scale(96%);
 }
 @media screen and (max-width:1100px) {
     .bg-color{
