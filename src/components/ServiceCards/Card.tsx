@@ -26,7 +26,7 @@ const Cards = (props: {
             </div>
             <h4
               style={{ fontWeight: "600", fontSize: "15px" }}
-              className="my-4 text-white text-center"
+              className="my-1 my-md-1  my-lg-3 my-xxl-3  my-xl-3 text-white text-center"
             >
               {CardTexts}
             </h4>
