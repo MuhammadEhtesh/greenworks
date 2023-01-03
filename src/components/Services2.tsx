@@ -1,29 +1,28 @@
 import React from "react";
-import { FaHome, FaMoneyBillAlt } from "react-icons/fa";
-import { BsTools } from "react-icons/bs";
-import { BsFillSunriseFill } from "react-icons/bs";
-import { MdPool } from "react-icons/md";
-import { BiSearchAlt } from "react-icons/bi";
-import { GiTeePipe, GiArchiveResearch } from "react-icons/gi";
-import { SlBadge } from "react-icons/sl";
+import homesvg from "../assets/serviceicons1/home.svg"
+import pool from "../assets/serviceicons1/pool.svg"
+import construction from "../assets/serviceicons1/construction.svg"
+import infrared from "../assets/serviceicons1/infrared.svg"
+import phaseinspection from "../assets/serviceicons1/phaseinspection.svg"
+import sewerline from "../assets/serviceicons1/sewerline.svg"
 
 import Image1 from "../assets/Images/servicesPics/Rectangle 54.png";
 import Image2 from "../assets/Images/servicesPics/Rectangle 55.png";
 import Image3 from "../assets/Images/servicesPics/Rectangle 56.png";
-import Image4 from "../assets/Images/servicesPics/Rectangle 53.png";
 import "./Services.css";
 function Services2() {
   return (
     <div style={{ backgroundColor: "#FAFAFA" }} className="container-fluid">
       <div className="container">
         <div className="row p-5">
-        <div className="imgsection2 col-lg-5 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
-            
+        <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+        {/* <img className="mx-lg-3 mx-md-0" height={500} src={image} alt="" /> */}
+        <div className="sideimage1" style={{height:"500px",width:"340px"}}></div>
             </div>
-          <div className="col-lg-7 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+          <div className="col-lg-7 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
             <div className="col-lg-9 col-md-12 col-sm-12">
               <div className="row">
-                <p style={{ fontSize: "20px" }} className="fw-500 my-0 p-0">
+                <p style={{ fontSize: "20px" }} className="fw-500 my-0 p-0 mt-3">
                   Services We Provide
                 </p>
                 <h1 style={{ fontSize: "44px" }} className="fw-bold my-0 p-0">
@@ -41,13 +40,10 @@ function Services2() {
                   
                     <div className="row">
                       <div className="col-1 " style={{width:"36px"}}> <span>
-                      <FaHome
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={homesvg} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>PCA</p>
+                        <p style={{fontSize:"14px"}}>PCA</p>
                       </div>
                     </div>
                   
@@ -55,78 +51,60 @@ function Services2() {
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <FaHome
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={pool} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Damage Assessment</p>
+                        <p style={{fontSize:"14px"}}>Damage Assessment</p>
                       </div>
                     </div>
                 </div>
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <FaMoneyBillAlt
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={construction} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Multifamily</p>
+                        <p style={{fontSize:"14px"}}>Multifamily</p>
                       </div>
                     </div>
                 </div>
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <BsTools
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={infrared} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Enviromental</p>
+                        <p style={{fontSize:"14px"}}>Enviromental</p>
                       </div>
                     </div>
                 </div>
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <BsFillSunriseFill
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px",color:"black"}} src={phaseinspection} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Sutructural Engineering</p>
+                        <p style={{fontSize:"14px"}} className="fw-bold">Sutructural Engineering</p>
                       </div>
                     </div>
                 </div>
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <MdPool
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                      <img style={{ width: "23px"}} src={sewerline} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Draws</p>
+                        <p style={{fontSize:"14px"}}>Draws</p>
                       </div>
                     </div>
                 </div>
                 <div className="col-6 ">
                 <div className="row">
                       <div className="col-1" style={{width:"36px"}}> <span>
-                      <SlBadge
-                        className="text-success mx-1"
-                        style={{ fontSize: "23px" }}
-                      />
+                     <img style={{ width: "23px"}} src={pool} alt="" />
                     </span>{" "}</div>
                       <div className="col d-flex justify-content-start">
-                        <p>Entry Code</p>
+                        <p style={{fontSize:"14px"}}>Entry Code</p>
                       </div>
                     </div>
                 </div>
