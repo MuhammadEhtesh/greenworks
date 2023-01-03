@@ -19,7 +19,7 @@ const Cards = (props: {
       >
         <CardMedia image={cardImgSrcs} className="d-flex alighnment">
           <CardActions className="align-self-end position-relative justify-content-center cardStyle">
-            <div className="position-absolute p-2 bg-white rounded-5 imgStyle with-border">
+            <div className="position-absolute d-flex justify-content-center align-items-center bg-white rounded-circle imgStyle">
               <img style={{ width: "40px" }} src={logoSvgs} alt="" />
             </div>
             <h4
