@@ -3,7 +3,12 @@ import "./GreenFooter.css";
 import { MDBFooter, MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import { BsInstagram } from "react-icons/bs";
 
-import { FaFacebookF, FaTwitter, FaGooglePlusG } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaGooglePlusG,
+  FaLinkedinIn,
+} from "react-icons/fa";
 import logo from "../../assets/Images/Footer/logo-white.png";
 function GreenFooter() {
   return (
@@ -212,24 +217,30 @@ function GreenFooter() {
                   </p>
                 </li>
                 <li>
-                  <ul className="list-unstyled d-flex justify-content-center fs-4">
+                  <ul className="list-unstyled d-flex fs-4">
                     <li
                       style={{ height: "30px", width: "30px" }}
-                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 IconBackground transitionEffect"
+                      className="mx-1 rounded-circle d-flex justify-content-center align-items-center fs-6 IconBackground "
                     >
                       <FaFacebookF className="IconHover" />
                     </li>
                     <li
                       style={{ height: "30px", width: "30px" }}
-                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 IconBackground transitionEffect"
+                      className="mx-1 rounded-circle d-flex justify-content-center align-items-center fs-6 IconBackground "
                     >
                       <FaTwitter className="IconHover" />
                     </li>
                     <li
                       style={{ height: "30px", width: "30px" }}
-                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 IconBackground transitionEffect fw-bold"
+                      className="mx-1 rounded-circle d-flex justify-content-center align-items-center fs-6 IconBackground  fw-bold"
                     >
-                      <BsInstagram className="InstaIcon" />
+                      <BsInstagram className="IconHover" />
+                    </li>
+                    <li
+                      style={{ height: "30px", width: "30px" }}
+                      className="mx-1 rounded-circle d-flex justify-content-center align-items-center fs-6 IconBackground  fw-bold"
+                    >
+                      <FaLinkedinIn className="IconHover" />
                     </li>
                   </ul>
                 </li>
