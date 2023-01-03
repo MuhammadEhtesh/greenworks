@@ -12,7 +12,7 @@ function GreenFooter() {
         style={{ height: "50%", width: "100%" }}
         className="mt-5 text-center text-white text-lg-left"
       >
-        <MDBContainer className="p-4">
+        <MDBContainer>
           <MDBRow>
             <MDBCol lg="3" md="6" sm="6" className="mb-4 mb-md-0">
               <ul className="list-unstyled d-flex flex-column align-items-start">
@@ -33,6 +33,7 @@ function GreenFooter() {
               <ul className="list-unstyled text-start">
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
@@ -41,6 +42,7 @@ function GreenFooter() {
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
@@ -49,6 +51,7 @@ function GreenFooter() {
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
@@ -57,6 +60,7 @@ function GreenFooter() {
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
@@ -65,6 +69,7 @@ function GreenFooter() {
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
@@ -73,6 +78,7 @@ function GreenFooter() {
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
@@ -81,6 +87,7 @@ function GreenFooter() {
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
@@ -94,6 +101,7 @@ function GreenFooter() {
               <ul className="list-unstyled text-start">
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
@@ -102,50 +110,74 @@ function GreenFooter() {
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
-                    ENGINEER & DESIGN
+                    AUSTIN OFFICE
                   </a>
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
-                    ENVIROMENTAL CONSULTING
+                    CORPUS CHRISTI OFFICE
                   </a>
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
-                    PEST AND TERMINATE SOLUTIONS
+                    DALLAS OFFICE
                   </a>
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
-                    HANDYMAN & HOME SOLUTIONS
+                    FORT WORTH OFFICE
                   </a>
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
-                    CONSULTING AND CONNECTIONS
+                    FRISCO OFFICE
                   </a>
                 </li>
                 <li className="mt-2">
                   <a
+                    href="#"
                     className="text-white text-start"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
-                    PACKAGES
+                    HOUSTON OFFICE
+                  </a>
+                </li>
+                <li className="mt-2">
+                  <a
+                    href="#"
+                    className="text-white text-start"
+                    style={{ fontSize: "12px", textDecoration: "none" }}
+                  >
+                    SAN ANTONIO OFFICE
+                  </a>
+                </li>
+                <li className="mt-2">
+                  <a
+                    href="#"
+                    className="text-white text-start"
+                    style={{ fontSize: "12px", textDecoration: "none" }}
+                  >
+                    WEST TX OFFICE
                   </a>
                 </li>
               </ul>
@@ -180,30 +212,24 @@ function GreenFooter() {
                   </p>
                 </li>
                 <li>
-                  <ul className="list-unstyled d-flex fs-4">
+                  <ul className="list-unstyled d-flex justify-content-center fs-4">
                     <li
                       style={{ height: "30px", width: "30px" }}
-                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6"
+                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 IconBackground transitionEffect"
                     >
-                      <FaFacebookF />
+                      <FaFacebookF className="IconHover" />
                     </li>
                     <li
                       style={{ height: "30px", width: "30px" }}
-                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6"
+                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 IconBackground transitionEffect"
                     >
-                      <FaTwitter />
+                      <FaTwitter className="IconHover" />
                     </li>
                     <li
                       style={{ height: "30px", width: "30px" }}
-                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 fw-bold"
+                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 IconBackground transitionEffect fw-bold"
                     >
-                      <BsInstagram />
-                    </li>
-                    <li
-                      style={{ height: "30px", width: "30px" }}
-                      className="mx-1 rounded-circle text-dark d-flex justify-content-center align-items-center bg-white fs-6 fw-bold"
-                    >
-                      <FaGooglePlusG />
+                      <BsInstagram className="InstaIcon" />
                     </li>
                   </ul>
                 </li>

@@ -14,11 +14,11 @@ import img10 from "../../assets/Images/OtherPictures/img10.jpg";
 const Certifications = () => {
   return (
     <>
-      <div className="px-5 mt-5 text-center">
+      <div className="px-5 mt-4 text-center">
         <h1 className="fw-bold textStyle2">Our Certifications</h1>
       </div>
-      <div className="container px-4 py-5" id="featured-3">
-        <div className="row g-4 py-5 row-cols-1 row-cols-lg-6">
+      <div className="container px-4" id="featured-3">
+        <div className="row g-4 py-4 row-cols-1 row-cols-lg-6">
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
               <img className="Svgimg" src={img1} />

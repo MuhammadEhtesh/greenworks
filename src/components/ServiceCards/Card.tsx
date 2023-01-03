@@ -19,12 +19,14 @@ const Cards = (props: {
       >
         <CardMedia image={cardImgSrcs} className="d-flex alighnment">
           <CardActions className="align-self-end position-relative justify-content-center cardStyle">
-            <div className="position-absolute d-flex justify-content-center align-items-center bg-white rounded-circle imgStyle">
-              <img style={{ width: "40px" }} src={logoSvgs} alt="" />
+            <div className="newOrder position-absolute rounded-circle d-flex justify-content-center align-items-center">
+              <div className=" bg-white position-absolute rounded-circle d-flex justify-content-center align-items-center imgStyle">
+                <img style={{ width: "33px" }} src={logoSvgs} alt="" />
+              </div>
             </div>
             <h4
               style={{ fontWeight: "600", fontSize: "15px" }}
-              className="py-1 text-white text-center"
+              className="my-4 text-white text-center"
             >
               {CardTexts}
             </h4>

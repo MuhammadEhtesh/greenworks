@@ -39,10 +39,10 @@
   font-weight: 700;
 }
 .formQuotePosition{
-  height: 45px !important;
-  width: 45px !important;
+  height: 55px !important;
+  width: 55px !important;
   /* left: 120px; */
-  top: -25px;
+  top: -45px;
   /* padding: 13px; */
 
   background: #FFFFFF;

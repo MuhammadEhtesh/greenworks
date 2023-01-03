@@ -9,12 +9,14 @@ const QueetForm = () => {
         className="row m-0 p-0 py-5 text-white"
         style={{
           backgroundImage: `url(${bgImage})`,
-          backgroundPosition: "center center",
+          backgroundPositionX: "center 100% ",
+          backgroundPositionY: "center 100% ",
+
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="col-sm-12 col-md-7 col-lg-7 d-flex justify-content-end">
+        <div className="col-sm-12 col-md-7 col-lg-7 col-xxl-5 d-flex justify-content-end">
           <div style={{ width: "max-content" }}>
             <div style={{ width: "max-content" }}>
               <p className="text-center mb-1">SCHEDULE APPOINTMENT OR</p>

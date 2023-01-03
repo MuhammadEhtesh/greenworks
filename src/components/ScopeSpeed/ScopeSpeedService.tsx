@@ -27,7 +27,7 @@ const ScopeSpeedService = () => {
                     marginTop: "10px",
                   }}
                 >
-                  SCHADUAL AN INSPACTION
+                  SCHEDULE AN INSPECTION
                 </p>
                 <input
                   type="text"
@@ -46,7 +46,7 @@ const ScopeSpeedService = () => {
                 />
                 <select
                   defaultValue="1"
-                  className="form-select form-control form-control-sm mb-2 rounded-1"
+                  className="form-select form-control form-control-sm mb-2 rounded-1 text-muted"
                   data-kt-select2="true"
                   data-placeholder="Select option"
                   data-allow-clear="true"

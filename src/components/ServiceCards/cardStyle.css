@@ -8,13 +8,17 @@
 }
 .imgStyle{
     /* bottom: 60px; */
-    top: -50px;
-box-shadow: rgba(255, 255, 255, 0.419) 0px 7px 29px 0px;
-    height: 60px !important;
-    width: 60px !important;
+    height: 55px !important;
+    width: 55px !important;
     background-color: white;
 }
+.newOrder{
+    top: -44px;
+  background-color: rgba(255, 255, 255, 0.349);
+    height: 70px !important;
+        width: 70px !important;
+}
 .transitionEffect:hover{
-    transform: scale(110%);
+    transform: scale(103%);
     transition: 0.10s;
 }

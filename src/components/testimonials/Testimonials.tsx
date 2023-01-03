@@ -16,34 +16,32 @@ const Testimonials = () => {
         <div className="d-flex justify-content-center ">
           <div className="row container">
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
-              <div className="card  rounded-3 border-0">
+              <div className="card  rounded-3 border-0 p-3">
                 <div className="row pt-3 d-flex justify-content-center position-relative">
-                  <div className="position-absolute bg-white rounded-5 text-center formQuotePosition">
-                    <FaQuoteLeft className="mt-3" />
+                  <div className="position-absolute bg-white rounded-5 text-center formQuotePosition d-flex align-items-center justify-content-center">
+                    <FaQuoteLeft className="" />
                   </div>
-                <div className="col-7">
-                <p
-                    style={{
-                      fontWeight: "600",
-                      fontStyle: "normal",
-                      fontSize: "16px",
-                    }}
-                    className="px-3"
-                  >
-                    Aug 11, 2022
-                  </p>
-                  <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                </div>
-                </div>
-                  
-                  <div
-                    className="col d-flex justify-content-center align-items-center flex-column"
-                  >
+                  <div className="col-7">
+                    <p
+                      style={{
+                        fontWeight: "600",
+                        fontStyle: "normal",
+                        fontSize: "16px",
+                      }}
+                      className="px-3"
+                    >
+                      Aug 11, 2022
+                    </p>
+                    <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                    </div>
+                  </div>
+
+                  <div className="col d-flex justify-content-center align-items-center flex-column">
                     <h4>
                       <span style={{ color: "#518af2" }}>G</span>
                       <span style={{ color: "#e74b41" }}>o</span>
@@ -64,7 +62,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="card-body">
                   <p
                     style={{
@@ -97,34 +95,32 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
-            <div className="card  rounded-3 border-0">
+              <div className="card  rounded-3 border-0 p-3">
                 <div className="row pt-3 d-flex justify-content-center position-relative">
-                  <div className="position-absolute bg-white rounded-5 text-center formQuotePosition">
-                    <FaQuoteLeft className="mt-3" />
+                  <div className="position-absolute bg-white rounded-5 text-center formQuotePosition d-flex align-items-center justify-content-center">
+                    <FaQuoteLeft />
                   </div>
-                <div className="col-7">
-                <p
-                    style={{
-                      fontWeight: "600",
-                      fontStyle: "normal",
-                      fontSize: "16px",
-                    }}
-                    className="px-3"
-                  >
-                    Aug 11, 2022
-                  </p>
-                  <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                </div>
-                </div>
-                  
-                  <div
-                    className="col d-flex justify-content-center align-items-center flex-column"
-                  >
+                  <div className="col-7">
+                    <p
+                      style={{
+                        fontWeight: "600",
+                        fontStyle: "normal",
+                        fontSize: "16px",
+                      }}
+                      className="px-3"
+                    >
+                      Aug 11, 2022
+                    </p>
+                    <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                    </div>
+                  </div>
+
+                  <div className="col d-flex justify-content-center align-items-center flex-column">
                     <h4>
                       <span style={{ color: "#518af2" }}>G</span>
                       <span style={{ color: "#e74b41" }}>o</span>
@@ -145,7 +141,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="card-body">
                   <p
                     style={{
@@ -178,34 +174,32 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
-            <div className="card  rounded-3 border-0">
+              <div className="card  rounded-3 border-0 p-3">
                 <div className="row pt-3 d-flex justify-content-center position-relative">
-                  <div className="position-absolute bg-white rounded-5 text-center formQuotePosition">
-                    <FaQuoteLeft className="mt-3" />
+                  <div className="position-absolute bg-white rounded-5 text-center formQuotePosition d-flex align-items-center justify-content-center">
+                    <FaQuoteLeft />
                   </div>
-                <div className="col-7">
-                <p
-                    style={{
-                      fontWeight: "600",
-                      fontStyle: "normal",
-                      fontSize: "16px",
-                    }}
-                    className="px-3"
-                  >
-                    Aug 11, 2022
-                  </p>
-                  <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                </div>
-                </div>
-                  
-                  <div
-                    className="col d-flex justify-content-center align-items-center flex-column"
-                  >
+                  <div className="col-7">
+                    <p
+                      style={{
+                        fontWeight: "600",
+                        fontStyle: "normal",
+                        fontSize: "16px",
+                      }}
+                      className="px-3"
+                    >
+                      Aug 11, 2022
+                    </p>
+                    <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                      <StarIcon />
+                    </div>
+                  </div>
+
+                  <div className="col d-flex justify-content-center align-items-center flex-column">
                     <h4>
                       <span style={{ color: "#518af2" }}>G</span>
                       <span style={{ color: "#e74b41" }}>o</span>
@@ -226,7 +220,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="card-body">
                   <p
                     style={{

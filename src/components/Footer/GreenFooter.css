@@ -9,7 +9,16 @@
     justify-content: center;
     /* background-repeat: no-repeat; */
 }
+.IconBackground:hover .IconHover{
+color: #1091f3;
+}
+.IconBackground:hover .InstaIcon {
+    color: #f60089;
+}
 
+.IconBackground:hover{
+    background-color: gainsboro !important;
+}
 @media screen and (max-width:991px) {
     .footer{
         height: max-content;
