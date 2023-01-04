@@ -5,3 +5,18 @@
 .gradientStyle{
     background: linear-gradient(194.12deg, #43945B 10.05%, #16110D 174.31%);
 }
+.green-text{
+    width: 50%;
+}
+.green-text2{
+    width: 50%;
+}
+@media screen and (max-width:700px) {
+    .green-text{
+    width: 90%;
+    }
+    .green-text2{
+        width: 90%;
+        font-size: 15px;
+    }
+}

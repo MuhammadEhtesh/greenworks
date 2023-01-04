@@ -16,7 +16,7 @@ const Testimonials = () => {
         <div className="d-flex justify-content-center ">
           <div className="row container">
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
-              <div className="card  rounded-3 border-0 p-3">
+              <div className="card  rounded-3 border-0 p-3 mt-4">
                 <div className="row pt-3 d-flex justify-content-center position-relative">
                   <div className="position-absolute bg-white rounded-5 text-center formQuotePosition d-flex align-items-center justify-content-center">
                     <FaQuoteLeft className="" />
@@ -93,7 +93,7 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
-              <div className="card  rounded-3 border-0 p-3">
+              <div className="card  rounded-3 border-0 p-3 mt-4">
                 <div className="row pt-3 d-flex justify-content-center position-relative">
                   <div className="position-absolute bg-white rounded-5 text-center formQuotePosition d-flex align-items-center justify-content-center">
                     <FaQuoteLeft />
@@ -170,7 +170,7 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 px-3 pb-4 col-12">
-              <div className="card  rounded-3 border-0 p-3">
+              <div className="card  rounded-3 border-0 p-3 mt-4">
                 <div className="row pt-3 d-flex justify-content-center position-relative">
                   <div className="position-absolute bg-white rounded-5 text-center formQuotePosition d-flex align-items-center justify-content-center">
                     <FaQuoteLeft />

@@ -12,9 +12,9 @@ const ScopeSpeedService = () => {
           <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 mt-2">
             <div className="">
               <h1 className="scopeText">Scope. Speed. Service.</h1>
-              <p>Magnifying your real Estate Peace of Mind</p>  
+              <p className="magnify-text">Magnifying your real Estate Peace of Mind</p>  
             </div>
-            <div className="">
+            <div className="center-form">
               <form
                 // style={{ width: "451px" }}
                 className="form p-4 bg-color formstyle rounded-3"

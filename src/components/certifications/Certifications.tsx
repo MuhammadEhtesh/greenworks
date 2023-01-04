@@ -21,32 +21,32 @@ const Certifications = () => {
         <div className="row g-4 py-4 row-cols-1 row-cols-lg-6">
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img1} />
+              <img className="Svgimg" alt="" src={img1} />
             </div>
           </div>
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img2} />
+              <img className="Svgimg" alt="" src={img2} />
             </div>
           </div>
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img3} />
+              <img className="Svgimg" alt="" src={img3} />
             </div>
           </div>
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img4} />
+              <img className="Svgimg" alt="" src={img4} />
             </div>
           </div>
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img5} />
+              <img className="Svgimg" alt="" src={img5} />
             </div>
           </div>
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img6} />
+              <img className="Svgimg" alt="" src={img6} />
             </div>
           </div>
         </div>
@@ -55,22 +55,22 @@ const Certifications = () => {
         <div className="row g-4 py-5 row-cols-1 row-cols-lg-6 px-5 justify-content-center">
           <div className="feature col text-center ">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 pb-5">
-              <img className="Svgimg" src={img7} />
+              <img className="Svgimg" alt="" src={img7} />
             </div>
           </div>
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img8} />
+              <img className="Svgimg" alt="" src={img8} />
             </div>
           </div>
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img9} />
+              <img className="Svgimg" alt="" src={img9} />
             </div>
           </div>
           <div className="feature col text-center">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-              <img className="Svgimg" src={img10} />
+              <img className="Svgimg" alt="" src={img10} />
             </div>
           </div>
         </div>

@@ -8,10 +8,11 @@
 .formstyle{
     width: 511px;
 }
+
 .scopeText{
     font-size: 58px;
     background: -webkit-linear-gradient(#25823F, #78DC96);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -35,10 +36,10 @@ transform: scale(96%);
 
 @media screen and (max-width:2500px) {
     .bgColorStyle{
-    height: 90vh;
+    height: 80vh;
     }
     .scopetext{
-    font-size: 72px;
+    font-size: 102px !important;
     }
 }
 @media screen and (max-width:1400px) {
@@ -46,7 +47,7 @@ transform: scale(96%);
     height: 110vh;
     }
     .scopetext{
-        font-size: 42px;
+        font-size: 42px !important;
     }
     .formstyle {
         width: 311px;
@@ -60,5 +61,38 @@ transform: scale(96%);
 @media screen and (max-width:767px) {
     .bg-color{
         margin-top: 20px;
+    }
+    .num-text{
+    font-size: 15px !important;
+    }
+    .book-btn{
+        font-size: 12px !important;
+    }
+    .width-100{
+        width: 100%;
+    }
+    .bgColorStyle {
+        background: url("../../assets/Images/HomeWithPeople.png");
+        background-size: cover;
+        height: 92vh;
+        background-repeat: no-repeat;
+        background-position-x: 50% center ;
+        background-position-y: 50% center ;
+    }
+    .scopeText{
+        font-size: 30px;
+        text-align: center;
+        background: -webkit-linear-gradient(#25823F, #78DC96);
+        background-clip: text;
+        font-weight: bold;
+        -webkit-text-fill-color: transparent;
+    }
+    .center-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .magnify-text{
+        text-align: center;
     }
 }

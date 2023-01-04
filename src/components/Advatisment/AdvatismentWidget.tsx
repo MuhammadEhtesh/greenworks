@@ -22,22 +22,27 @@ const AdvatismentWidget = () => {
         <div className=''>
           <div className='d-flex justify-content-center'>
             <div className='text-center text-success'>
-              <h4>
+              <div className='green-text' style={{margin:"auto"}}>
+              <h5 className='fw-bold'>
                 GreenWorks Inspections are
-                <br /> your accurate real-time decision-making <br />
+               your accurate real-time decision-making
                 tool for home inspection in Texas
-              </h4>
+              </h5>
+              </div>
+              
             </div>
           </div>
           <div className='d-flex justify-content-center'>
             <div className='text-center'>
+              <div style={{margin:"auto"}} className='green-text2 mt-3 mb-3'>
               <p>
                 GreenWorks provides a full scope of home inspection services to
-                suit your <br /> needs. Whether you are purchasing a pre-owned
-                home, building a home from <br /> the ground up or an investor
-                doing their due diligence; we have the property <br />{' '}
+                suit your  needs. Whether you are purchasing a pre-owned
+                home, building a home from  the ground up or an investor
+                doing their due diligence; we have the property
                 inspection resource for you!
               </p>
+              </div>
             </div>
           </div>
           <div className='d-flex justify-content-center'>
