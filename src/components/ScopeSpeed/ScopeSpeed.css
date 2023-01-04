@@ -10,8 +10,7 @@
     width: 511px;
 }
 .magnify-text{
-    text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
 .scopeText{
     font-size: 58px;
@@ -99,6 +98,6 @@ transform: scale(96%);
     }
     .magnify-text{
         text-align: center;
-        font-size: 15px;
+        font-size: 15px;    
     }
 }
