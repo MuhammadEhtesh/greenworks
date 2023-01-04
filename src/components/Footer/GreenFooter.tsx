@@ -12,34 +12,34 @@ import {
 import logo from "../../assets/Images/Footer/logo-white.png";
 function GreenFooter() {
   return (
-    <div className="container-fluid footer">
+    <div className="container-fluid footer ">
       <MDBFooter
         style={{ height: "50%", width: "100%" }}
         className="mt-5 text-center text-white text-lg-left"
       >
         <MDBContainer>
           <MDBRow>
-            <MDBCol lg="3" md="6" sm="6" className="mb-4 mb-md-0">
-              <ul className="list-unstyled d-flex flex-column align-items-start">
+            <MDBCol lg="3" md="6" sm="6" className="mb-4 mb-md-0 ">
+              <ul className="list-unstyled d-flex flex-column align-items-center text-center">
                 <img height={70} src={logo} alt="" />
                 <li className="mt-2">
                   <p
-                    className="text-start p-0 m-0 mt-3"
+                    className="text-center p-0 m-0 mt-3"
                     style={{ color: "#82F4A4" }}
                   >
                     For Inspection
                   </p>
-                  <h3 className="text-white text-start">(210) 750-4830</h3>
+                  <h3 className="text-white text-center">(210) 750-4830</h3>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol lg="3" md="6" sm="6" className="mb-4 mb-md-0">
-              <ul className="list-unstyled text-start">
+              <ul className="list-unstyled text-center">
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     INSPECT & INVESTIGATE
@@ -48,7 +48,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     ENGINEER & DESIGN
@@ -57,7 +57,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     ENVIROMENTAL CONSULTING
@@ -66,7 +66,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     PEST AND TERMINATE SOLUTIONS
@@ -75,7 +75,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     HANDYMAN & HOME SOLUTIONS
@@ -84,7 +84,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     CONSULTING AND CONNECTIONS
@@ -93,7 +93,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     PACKAGES
@@ -103,11 +103,11 @@ function GreenFooter() {
             </MDBCol>
 
             <MDBCol lg="3" md="6" sm="6" className="mb-4 mb-md-0 ">
-              <ul className="list-unstyled text-start">
+              <ul className="list-unstyled text-center">
                 {/* <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     INSPECT & INVESTIGATE
@@ -116,7 +116,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     AUSTIN OFFICE
@@ -125,7 +125,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     CORPUS CHRISTI OFFICE
@@ -134,7 +134,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     DALLAS OFFICE
@@ -143,7 +143,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     FORT WORTH OFFICE
@@ -152,7 +152,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     FRISCO OFFICE
@@ -161,7 +161,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     HOUSTON OFFICE
@@ -170,7 +170,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     SAN ANTONIO OFFICE
@@ -179,7 +179,7 @@ function GreenFooter() {
                 <li className="mt-2">
                   <a
                     href="#"
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px", textDecoration: "none" }}
                   >
                     WEST TX OFFICE
@@ -192,17 +192,17 @@ function GreenFooter() {
               lg="3"
               md="6"
               sm="6"
-              className="mb-4 mb-md-0 d-flex align-items-end"
+              className="mb-4 mb-md-0 d-flex align-items-end justify-content-center"
             >
               <ul className="list-unstyled">
                 <li>
-                  <p className=" text-start" style={{ color: "#82F4A4" }}>
+                  <p className=" text-center" style={{ color: "#82F4A4" }}>
                     OPEN 7 DAYS A WEEK
                   </p>
                 </li>
                 <li>
                   <p
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px" }}
                   >
                     Weekdays: 7:00am - 8:00pm
@@ -210,7 +210,7 @@ function GreenFooter() {
                 </li>
                 <li>
                   <p
-                    className="text-white text-start"
+                    className="text-white text-center"
                     style={{ fontSize: "12px" }}
                   >
                     Weekends: 8:00am - 8:00pm
