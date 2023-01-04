@@ -1,0 +1,8 @@
+.waiter-bg-image{
+    height: 240px;
+}
+@media screen and (max-width:700px) {
+    .waiter-bg-image{
+        height: 160px;
+    }
+}
