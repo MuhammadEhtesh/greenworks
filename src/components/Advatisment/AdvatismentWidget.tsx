@@ -64,16 +64,20 @@ const AdvatismentWidget = () => {
           }}
           className='d-flex justify-content-end text-white py-5'
         >
+          
           <div className=' col-lg-5 col-md-8 col-sm-10 mt-5 '>
+            <div className='peace-text'>
             <h1>
-              Get Peace of Mind <br /> with Greenworks
+              Get Peace of Mind with Greenworks
             </h1>
-            <h4 className='text-success'>
+            </div>
+            
+            <h4 style={{color:"#48DB71"}} className="Residential-text mt-3">
               Residential & Commercial Inspection
             </h4>
-            <div className='d-flex '>
-              <IconButton className='text-success'>
-                <AddIcCallIcon fontSize='large' />
+            <div style={{margin:"auto"}} className='d-flex number-with-icon'>
+              <IconButton >
+                <AddIcCallIcon style={{color:"#48DB71"}} fontSize='large' />
               </IconButton>
               <h3 className='mt-2 fw-bolder'> (210) 750-4833</h3>
             </div>

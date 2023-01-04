@@ -11,9 +11,31 @@
 .green-text2{
     width: 50%;
 }
+.peace-text{
+    width:70%;
+}
+.Residential-text{
+width: 100%;
+margin: auto;
+}
 @media screen and (max-width:700px) {
     .green-text{
     width: 90%;
+    }
+    .number-with-icon{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        background-color: #161a34;
+        justify-content: center !important;
+    }
+    .Residential-text{
+        width: 90%;
+        text-align: center;
+        }
+    .peace-text{
+    width:100%;
+        text-align: center;
     }
     .green-text2{
         width: 90%;
