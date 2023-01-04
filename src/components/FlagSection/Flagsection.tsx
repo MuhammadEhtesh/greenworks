@@ -12,7 +12,7 @@ const Flagsection = () => {
       {/* Second Section Start */}
       <div className='bgFlagImage'>
         <div
-          className='d-flex justify-content-end text-white py-5'
+          className='d-flex justify-content-end text-white py-5 '
         >
           <div className=' col-lg-5 col-md-8 col-sm-10 mt-5 text-center'>
             <h5 style={{color:"#82F4A4"}}>

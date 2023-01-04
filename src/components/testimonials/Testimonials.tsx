@@ -21,18 +21,19 @@ const Testimonials = () => {
                   <div className="position-absolute bg-white rounded-5 text-center formQuotePosition d-flex align-items-center justify-content-center">
                     <FaQuoteLeft className="" />
                   </div>
-                  <div className="col-7">
+                  <div className="col-7 d-flex flex-column justify-content-center align-items-center">
+                    
                     <p
                       style={{
                         fontWeight: "600",
                         fontStyle: "normal",
                         fontSize: "16px",
                       }}
-                      className="px-3"
+                    
                     >
                       Aug 11, 2022
                     </p>
-                    <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
+                    <div className="" style={{ color: "orange" }}>
                       <StarIcon className="fs-5" />
                       <StarIcon className="fs-5" />
                       <StarIcon className="fs-5" />

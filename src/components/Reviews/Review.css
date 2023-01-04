@@ -14,12 +14,14 @@
  font-weight: 400;
   line-height: 124%;
   /* or 50px */
- 
   text-align: center;
- 
   color: #272727;
 }
-
+@media screen and (max-width:700px) {
+  .txt4{
+  font-size: 15px;
+  }
+}
 .Svgimg {
 height: 60px;
 }

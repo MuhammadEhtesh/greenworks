@@ -52,7 +52,7 @@ const ServiceCard = () => {
   return (
     <div>
       <div className="col-12">
-        <p style={{marginTop:"-40px"}} className="text-center text-success mb-2">Available 7 Days a Week</p>
+        <h6 style={{marginTop:"-40px"}} className="text-center text-success mb-2">Available 7 Days a Week</h6>
         <h3 className="text-center fw-bolder">How We Serve You</h3>
       </div>
       <div>

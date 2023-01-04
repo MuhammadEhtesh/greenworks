@@ -5,10 +5,14 @@
     background-repeat: no-repeat;
     background-position: 100% 100% ;
 }
+
 .formstyle{
     width: 511px;
 }
-
+.magnify-text{
+    text-align: center;
+    font-size: 15px;
+}
 .scopeText{
     font-size: 58px;
     background: -webkit-linear-gradient(#25823F, #78DC96);
@@ -62,6 +66,7 @@ transform: scale(96%);
     .bg-color{
         margin-top: 20px;
     }
+  
     .num-text{
     font-size: 15px !important;
     }
@@ -94,5 +99,6 @@ transform: scale(96%);
     }
     .magnify-text{
         text-align: center;
+        font-size: 15px;
     }
 }
