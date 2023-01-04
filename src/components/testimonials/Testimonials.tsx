@@ -53,11 +53,11 @@ const Testimonials = () => {
                     <div className="d-flex mx-1">
                       <p className=" text-muted reviewsStyle">Reviews</p>
                       <div className="">
-                        <StarIcon className="starIconStyle fs-5" />
-                        <StarIcon className="starIconStyle fs-5" />
-                        <StarIcon className="starIconStyle fs-5" />
-                        <StarIcon className="starIconStyle fs-5" />
-                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
                       </div>
                     </div>
                   </div>
@@ -130,11 +130,11 @@ const Testimonials = () => {
                     <div className="d-flex mx-1">
                       <p className=" text-muted reviewsStyle">Reviews</p>
                       <div className="">
-                        <StarIcon className="starIconStyle fs-5" />
-                        <StarIcon className="starIconStyle fs-5" />
-                        <StarIcon className="starIconStyle fs-5" />
-                        <StarIcon className="starIconStyle fs-5" />
-                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
                       </div>
                     </div>
                   </div>
@@ -207,11 +207,11 @@ const Testimonials = () => {
                     <div className="d-flex mx-1">
                       <p className=" text-muted reviewsStyle">Reviews</p>
                       <div className="">
-                        <StarIcon className="fs-5 starIconStyle" />
-                        <StarIcon className="fs-5 starIconStyle" />
-                        <StarIcon className="fs-5 starIconStyle" />
-                        <StarIcon className="fs-5 starIconStyle" />
-                        <StarIcon className="fs-5 starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle" />
                       </div>
                     </div>
                   </div>
