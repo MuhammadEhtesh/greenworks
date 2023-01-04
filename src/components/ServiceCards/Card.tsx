@@ -14,7 +14,7 @@ const Cards = (props: {
   return (
     <div>
       <Card
-        sx={{ maxWidth: "30vh", minWidth: "30vh" }}
+        sx={{ maxWidth: "40vh", minWidth: "40vh" }}
         className="mb-2 transitionEffect"
       >
         <CardMedia image={cardImgSrcs} className="d-flex alighnment">
