@@ -66,8 +66,6 @@ const Testimonials = () => {
                 <div className="card-body">
                   <p
                     style={{
-                      fontFamily: "poppins",
-                      fontStyle: "normal",
                       fontWeight: "300",
                       fontSize: "18px",
                     }}
@@ -145,8 +143,6 @@ const Testimonials = () => {
                 <div className="card-body">
                   <p
                     style={{
-                      fontFamily: "poppins",
-                      fontStyle: "normal",
                       fontWeight: "300",
                       fontSize: "18px",
                     }}
@@ -224,8 +220,6 @@ const Testimonials = () => {
                 <div className="card-body">
                   <p
                     style={{
-                      fontFamily: "poppins",
-                      fontStyle: "normal",
                       fontWeight: "300",
                       fontSize: "18px",
                     }}

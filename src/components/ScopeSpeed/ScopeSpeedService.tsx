@@ -11,8 +11,8 @@ const ScopeSpeedService = () => {
         <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
           <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 mt-2">
             <div className="">
-              <h1 className="text-success">Scope. Speed. Service.</h1>
-              <p>Magnifying your real Estate Peace of Mind</p>
+              <h1 className="scopeText">Scope. Speed. Service.</h1>
+              <p>Magnifying your real Estate Peace of Mind</p>  
             </div>
             <div className="">
               <form
