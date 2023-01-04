@@ -33,11 +33,11 @@ const Testimonials = () => {
                       Aug 11, 2022
                     </p>
                     <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
                     </div>
                   </div>
 
@@ -53,11 +53,11 @@ const Testimonials = () => {
                     <div className="d-flex mx-1">
                       <p className=" text-muted reviewsStyle">Reviews</p>
                       <div className="">
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle fs-5" />
                       </div>
                     </div>
                   </div>
@@ -110,11 +110,11 @@ const Testimonials = () => {
                       Aug 11, 2022
                     </p>
                     <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
                     </div>
                   </div>
 
@@ -130,11 +130,11 @@ const Testimonials = () => {
                     <div className="d-flex mx-1">
                       <p className=" text-muted reviewsStyle">Reviews</p>
                       <div className="">
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle fs-5" />
+                        <StarIcon className="starIconStyle fs-5" />
                       </div>
                     </div>
                   </div>
@@ -187,11 +187,11 @@ const Testimonials = () => {
                       Aug 11, 2022
                     </p>
                     <div className="p-3 pt-0 mt-0" style={{ color: "orange" }}>
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
-                      <StarIcon />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
+                      <StarIcon className="fs-5" />
                     </div>
                   </div>
 
@@ -207,11 +207,11 @@ const Testimonials = () => {
                     <div className="d-flex mx-1">
                       <p className=" text-muted reviewsStyle">Reviews</p>
                       <div className="">
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
-                        <StarIcon className="starIconStyle" />
+                        <StarIcon className="fs-5 starIconStyle" />
+                        <StarIcon className="fs-5 starIconStyle" />
+                        <StarIcon className="fs-5 starIconStyle" />
+                        <StarIcon className="fs-5 starIconStyle" />
+                        <StarIcon className="fs-5 starIconStyle" />
                       </div>
                     </div>
                   </div>

@@ -14,7 +14,7 @@ function Services2() {
   return (
     <div style={{ backgroundColor: "#FAFAFA" }} className="container-fluid">
       <div className="container">
-        <div className="row p-5">
+        <div className="row p-2 p-xxl-5 p-lg-5">
         <div className="col-lg-5 col-md-12 col-sm-12 d-flex justify-content-center align-items-end">
         {/* <img className="mx-lg-3 mx-md-0" height={500} src={image} alt="" /> */}
         <div className="sideimage1" style={{height:"410px",width:"340px"}}></div>
@@ -22,10 +22,10 @@ function Services2() {
           <div className="col-lg-7 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
             <div className="col-lg-9 col-md-12 col-sm-12">
               <div className="row">
-                <p style={{ fontSize: "20px" }} className="fw-500 my-0 p-0 mt-3">
+                <p style={{ fontSize: "20px" }} className="fw-500 m-0 p-0 mt-5 mt-xxl-0 mt-xl-0 mt-lg-0">
                   Services We Provide
                 </p>
-                <h1 style={{ fontSize: "44px" }} className="fw-bold my-0 p-0">
+                <h1 style={{ fontSize: "44px" ,lineHeight:"40px"}} className="fw-bold my-3 p-0">
                   Residential Services
                 </h1>
                 <h4
@@ -109,15 +109,15 @@ function Services2() {
                     </div>
                 </div>
               </div>
-              <div className="row d-flex justify-content-between">
-                <div className="col-3">
-                  <img className="images " src={Image3} alt="" />
+              <div className="row">
+                <div className="col-4" style={{height:"max-content"}}>
+                  <img className="images" style={{marginLeft:"-10px"}} src={Image3} alt="" />
                 </div>
-                <div className="col-3">
-                  <img className="images " src={Image2} alt="" />
+                <div className="col-4" style={{height:"max-content"}}>
+                  <img className="images" style={{marginLeft:"-10px"}} src={Image2} alt="" />
                 </div>
-                <div className="col-3">
-                  <img className="images " src={Image1} alt="" />
+                <div className="col-4" style={{height:"max-content"}}>
+                  <img className="images" style={{marginLeft:"-10px"}} src={Image1} alt="" />
                 </div>
               </div>
             </div>
