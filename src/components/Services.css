@@ -1,5 +1,5 @@
 .images{
-    width:120%;
+    width:100%;
 }
 .sideimage1{
     background-image: url("../assets/Images/servicesPics/Rectangle\ 53.png");
@@ -16,9 +16,9 @@
    
 }
 @media screen and (max-width:1199px){
-    .images{
+    /* .images{
         height:105px;
-    }
+    } */
 }
 @media screen and (max-width:991px){
     .sideimage2{
@@ -27,34 +27,11 @@
     }
 }
 @media screen and (max-width:491px){
-    /* .images{
-        height:90px;
-    } */
     .iconname{
         font-size: 12px;
     }
 }
-@media screen and (max-width:435px){
-    /* .images{
-        height:70px;
-    } */
-}
-@media screen and (max-width:375px){
-    /* .images{
-        height:60px;
-    } */
-}
 
-/* .imgsection1{
-    background-image: url(../assets/Images/servicesPics/Rectangle\ 49.png);
-    background-position: center;
-    background-size: cover;
-}
-.imgsection2{
-    background-image: url(../assets/Images/servicesPics/Rectangle\ 53.png);
-    background-position: center;
-    background-size: cover;
-} */
 .imageresponsive{
     height: 530px;
 }
