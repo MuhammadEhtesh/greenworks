@@ -5,21 +5,14 @@
     background-image: url("../assets/Images/servicesPics/Rectangle\ 53.png");
     background-position: center;
     background-size: cover;
-  
 }
-
 
 .sideimage2{
     background-image: url("../assets/Images/servicesPics/Rectangle\ 49.png");
     background-position: center;
     background-size: cover;
-   
 }
-@media screen and (max-width:1199px){
-    /* .images{
-        height:105px;
-    } */
-}
+
 @media screen and (max-width:991px){
     .sideimage2{
         height:"500px";
